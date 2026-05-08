@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Website</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #e3f2fd;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            width: 80%;
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: light blue;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 12px gray;
+        }
+
+        h1{
+            text-align: center;
+            color: #1565c0;
+        }
+
+        h2{
+            color: #0d47a1;
+        }
+
+        .profile-img{
+            display: block;
+            margin: auto;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid #1565c0;
+            object-fit: cover;
+        }
+
+        ul{
+            line-height: 1.8;
+        }
+
+        .quote{
+            background-color: #bbdefb;
+            padding: 15px;
+            border-left: 5px solid #1565c0;
+            margin-top: 20px;
+            font-style: italic;
+        }
+
+        .social-links a{
+            text-decoration: none;
+            background-color: #0000FF;
+            color: lightblue;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .social-links a:hover{
+            background-color: #0d47a1;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>My Student Profile</h1>
+
+        <!-- Student Picture -->
+        <img src="mypicture.jpg" alt="Student Picture" class="profile-img">
+
+        <!-- Personal Information -->
+        <h2>Personal Information</h2>
+
+        <p><strong>Name:</strong> RHEA TAPINIT</p>
+        <p><strong>Age:</strong> 20</p>
+        <p><strong>Course/Grade:</strong> BINDTECH FPST 2-11</p>
+
+        <!-- Hobbies -->
+        <h2>My Hobbies</h2>
+
+        <ul>
+            <li>Listening to Music</li>
+            <li>Watching Movies</li>
+            <li>Playing Volleyball</li>
+            <li>Reading Books</li>
+            
+        </ul>
+
+        <!-- Favorite Subjects -->
+        <h2>Favorite Subjects</h2>
+
+        <ul>
+            
+            <li>Mathematics</li>
+            <li>English</li>
+        </ul>
+
+        <!-- Favorite Quote -->
+        <div class="quote">https://www.facebook.com/rhea.tapinit19
+            "Believe in yourself and all that you are."
+        </div>
+
+        <!-- Social Media Links -->
+        <h2>Social Media Links</h2>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/rhea.tapinit19" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/rhxnly?igsh=eTl6HJzMmx3NWj" target="_blank">Instagram</a>
+            </div>
+
+    </div>
+
+</body>
+</html>
